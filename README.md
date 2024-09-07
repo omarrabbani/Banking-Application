@@ -1,3 +1,8 @@
 # Banking-Application
 
-This project demonstrates the design of a simple bank account application, created using the Java language and JavaFX as the GUI application. 
+This project demonstrates the design of a bank account application, created using the Java language and JavaFX as the GUI application. 
+![UML](https://github.com/user-attachments/assets/e9e095e3-f3cf-491d-ae00-54f45aa82512)
+
+This UML class diagram illustrates the layout of the bank account application system as a complete data model. It is composed of the BankAcc, ManagerAcc, CustomerAcc, and CustomerLvl main classes, where the BankAcc class serves as the central interface through which all other classes operate, including the JavaFX GUI components. The ManagerAcc class consists of methods for login authentication, as well as for creating and deleting customer account files. The CustomerAcc class houses the necessary attributes for a customer account, which are the level of the account as a CustomerLvl object, the customer’s balance as a double, and a file for storing additional user information. The CustomerLvl class changes object types when a state transition occurs, affecting how online purchases are made. The provided UML diagram illustrates the existing relationships between classes and interfaces, making use of inheritance as well as the state design pattern.
+
+Overall, this project has placed great emphasis on the usage of design patterns, further developing the author’s understanding of them and how to apply them. The author has also become well-versed in the usage of many JavaFX library components throughout this project. The use of UML diagrams reinforced the object-oriented approach used in industry-standard settings and aided the author’s experience with front-end development.
